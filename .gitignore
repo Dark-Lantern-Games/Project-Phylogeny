@@ -1,0 +1,56 @@
+# Binaries & pids
+*.exe
+.eltanin.pids
+
+# .Net build output
+bin/
+obj/
+
+# Obsidian Cache folders
+.obsidian/
+
+# .Net test output
+TestResults/
+tests/archived/
+
+# Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Rider user-specific settings
+*.DotSettings.user
+
+# Builds
+client/builds/
+archived/v3/builds/
+
+# Stress testing
+artifacts/**/*.log
+
+# Go
+vendor/
+
+# Generated protobuf code
+# Committing as artifacts until stable
+#pkg/protobuf
+
+# Environment 
+.env 
+
+# IDE
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Signing keys
+common/configs/*.key
+
+# Ignore logs directory
+logs/
+
+# Don't commit client-side data definitions directory
+client/config/
